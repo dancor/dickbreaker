@@ -1,0 +1,17 @@
+name:           dickbreaker
+version:        0.1
+license:        GPL
+license-file:   LICENSE
+author:         dan corson <danl@alum.mit.edu>
+synopsis:       <syn>
+build-type:     Simple
+build-depends:  Cabal, FUtil, SDL, SDL-gfx, SDL-image, SDL-ttf, array, base,
+                containers, directory, filepath, haskell98, process, stm,
+                MonadRandom
+data-files:     pics/bg.png, pics/red-brick.png, pics/grey-brick.png,
+                pics/hitter.png, pics/ball.png
+
+executable:     dickbreaker
+ghc-options:    -threaded
+main-is:        Main.hs
+hs-source-dirs: src
